@@ -18,5 +18,6 @@ public class JavaSnacks {
 			System.out.println(userNumber + 1);
 		}
 		
+//		System.out.println(); <- soluzione col ternario
 	}
 }

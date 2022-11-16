@@ -4,7 +4,9 @@ import java.util.Scanner;
 
 public class JavaSnacks {
 	public static void main(String[] args) {
-		
+		/*
+		 * PRIMO SNACK - INSERISCI UN NUMERO, STAMPA NUMERI PARI, SE DISPARI STAMPA IL NUMERO SUCCESSIVO.
+		 */
 		Scanner sc = new Scanner(System.in);
 			System.out.print("Inserisci un numero:");
 			int userNumber = sc.nextInt();
@@ -15,5 +17,6 @@ public class JavaSnacks {
 		} else {
 			System.out.println(userNumber + 1);
 		}
+		
 	}
 }

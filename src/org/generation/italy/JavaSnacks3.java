@@ -8,10 +8,12 @@ public class JavaSnacks3 {
 		int sum = 0;
 		
 		for (int i = 0; i < numbers.length; i++) {
-			sum = numbers[1] + numbers[3] + numbers[5] + numbers[7] + numbers[9];
-			
+			if(i % 2 != 0) {
+				sum += numbers[i];
+				System.out.println(numbers[i]);
+				
+			}	
 		}
 		System.out.println(sum);
-		
 	}
 }

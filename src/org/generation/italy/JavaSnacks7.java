@@ -7,8 +7,8 @@ public class JavaSnacks7 {
 		String phrase = "";
 		String reversePhrase = "";
 		
-		String longest = "";
-		String shortest = "";
+		String longest = words[0];
+		String shortest = words[0];
 		
 		for(int i = 0; i < words.length; i++) {
 			
